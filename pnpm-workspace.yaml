@@ -23,6 +23,7 @@ catalog:
   '@playwright/test': ^1.56.0
   '@tailwindcss/typography': ^0.5.19
   '@tanstack/vue-query': ^5.90.2
+  '@types/lodash-es': ^4.17.12
   '@tanstack/vue-store': ^0.7.7
   '@types/archiver': ^6.0.3
   '@types/eslint': ^9.6.1
@@ -91,6 +92,7 @@ catalog:
   json-bigint: ^1.0.0
   jsonc-eslint-parser: ^2.4.1
   lefthook: ^1.13.6
+  lodash-es: ^4.17.21
   lucide-vue-next: ^0.507.0
   medium-zoom: ^1.1.0
   naive-ui: ^2.43.1

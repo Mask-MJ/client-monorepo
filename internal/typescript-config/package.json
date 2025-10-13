@@ -12,6 +12,7 @@
     "web.json"
   ],
   "dependencies": {
+    "@mask/types": "workspace:*",
     "vite": "catalog:"
   }
 }

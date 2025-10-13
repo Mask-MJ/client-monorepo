@@ -1,0 +1,30 @@
+{
+  "name": "@mask/utils",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "dependencies": {
+    "@ctrl/tinycolor": "catalog:",
+    "@mask/types": "workspace:*",
+    "clsx": "catalog:",
+    "dayjs": "catalog:",
+    "lodash-es": "catalog:",
+    "nprogress": "catalog:",
+    "tailwind-merge": "catalog:",
+    "theme-colors": "catalog:",
+    "vue-router": "catalog:"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "catalog:",
+    "@types/nprogress": "catalog:"
+  }
+}

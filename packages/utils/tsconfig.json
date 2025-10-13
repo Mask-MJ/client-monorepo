@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "@mask/typescript-config/library.json",
+  "compilerOptions": {
+    "types": ["@mask/types/global"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}

@@ -1,5 +1,4 @@
 import { getScrollbarWidth, needsScrollbar } from '@mask/utils';
-
 import {
   useScrollLock as _useScrollLock,
   tryOnBeforeUnmount,

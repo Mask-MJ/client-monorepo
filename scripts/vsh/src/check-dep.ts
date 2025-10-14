@@ -22,6 +22,7 @@ const DEFAULT_CONFIG = {
     '@mask/eslint-config',
     '@mask/node-utils',
     '@mask/prettier-config',
+    '@mask/stylelint-config',
     '@mask/tailwind-config',
     '@mask/typescript-config',
     '@mask/vite-config',

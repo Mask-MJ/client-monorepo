@@ -13,6 +13,9 @@ async function runLint({ format }: LintCommandOptions) {
   // process.env.FORCE_COLOR = '3';
 
   if (format) {
+    await execaCommand(`stylelint "**/*.{vue,css,less,scss}" --cache --fix`, {
+      stdio: 'inherit',
+    });
     await execaCommand(`eslint . --cache --fix`, {
       stdio: 'inherit',
     });
@@ -26,6 +29,9 @@ async function runLint({ format }: LintCommandOptions) {
       stdio: 'inherit',
     }),
     execaCommand(`prettier . --ignore-unknown --check --cache`, {
+      stdio: 'inherit',
+    }),
+    execaCommand(`stylelint "**/*.{vue,css,less,scss}" --cache`, {
       stdio: 'inherit',
     }),
   ]);

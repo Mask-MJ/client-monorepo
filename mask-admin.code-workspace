@@ -1,0 +1,68 @@
+{
+  "folders": [
+    {
+      "name": "@mask/commitlint-config",
+      "path": "internal/commitlint-config",
+    },
+    {
+      "name": "@mask/eslint-config",
+      "path": "internal/eslint-config",
+    },
+    {
+      "name": "@mask/node-utils",
+      "path": "internal/node-utils",
+    },
+    {
+      "name": "@mask/prettier-config",
+      "path": "internal/prettier-config",
+    },
+    {
+      "name": "@mask/stylelint-config",
+      "path": "internal/stylelint-config",
+    },
+    {
+      "name": "@mask/typescript-config",
+      "path": "internal/typescript-config",
+    },
+    {
+      "name": "@mask/vite-config",
+      "path": "internal/vite-config",
+    },
+    {
+      "name": "@mask/composables",
+      "path": "packages/composables",
+    },
+    {
+      "name": "@mask/locales",
+      "path": "packages/locales",
+    },
+    {
+      "name": "@mask/preferences",
+      "path": "packages/preferences",
+    },
+    {
+      "name": "@mask/stores",
+      "path": "packages/stores",
+    },
+    {
+      "name": "@mask/styles",
+      "path": "packages/style",
+    },
+    {
+      "name": "@mask/types",
+      "path": "packages/types",
+    },
+    {
+      "name": "@mask/utils",
+      "path": "packages/utils",
+    },
+    {
+      "name": "@mask/turbo-run",
+      "path": "scripts/turbo-run",
+    },
+    {
+      "name": "@mask/vsh",
+      "path": "scripts/vsh",
+    },
+  ],
+}

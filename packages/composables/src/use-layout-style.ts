@@ -1,12 +1,9 @@
+import type { VisibleDomRect } from '@mask/utils';
 import type { CSSProperties } from 'vue';
 
-import type { VisibleDomRect } from '@mask/utils';
-
-import { computed, onMounted, onUnmounted, ref } from 'vue';
-
 import { getElementVisibleRect } from '@mask/utils';
-
 import { useCssVar, useDebounceFn } from '@vueuse/core';
+import { computed, onMounted, onUnmounted, ref } from 'vue';
 
 /** layout content 组件的高度 */
 export const CSS_VARIABLE_LAYOUT_CONTENT_HEIGHT = `--saas-content-height`;

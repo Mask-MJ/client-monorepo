@@ -17,6 +17,7 @@
     "@mask/types": "workspace:*",
     "@mask/utils": "workspace:*",
     "pinia": "catalog:",
+    "pinia-plugin-persistedstate": "catalog:",
     "secure-ls": "catalog:",
     "vue": "catalog:",
     "vue-router": "catalog:"

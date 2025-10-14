@@ -88,18 +88,6 @@ type Merge<O extends object, T extends object> = {
       : never;
 };
 
-/**
- * T = [
- *  { name: string; age: number; },
- *  { sex: 'male' | 'female'; age: string }
- * ]
- * =>
- * MergeAll<T> = {
- *  name: string;
- *  sex: 'male' | 'female';
- *  age: string
- * }
- */
 type MergeAll<
   T extends object[],
   R extends object = Record<string, any>,
@@ -107,7 +95,7 @@ type MergeAll<
   ? MergeAll<Rest, Merge<R, F>>
   : R;
 
-type EmitType = (name: String, ...args: any[]) => void;
+type EmitType = (name: string, ...args: any[]) => void;
 
 type MaybePromise<T> = Promise<T> | T;
 

@@ -1,0 +1,24 @@
+{
+  "name": "@mask/stores",
+  "version": "5.5.9",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "dependencies": {
+    "@mask/preferences": "workspace:*",
+    "@mask/types": "workspace:*",
+    "@mask/utils": "workspace:*",
+    "pinia": "catalog:",
+    "secure-ls": "catalog:",
+    "vue": "catalog:",
+    "vue-router": "catalog:"
+  }
+}

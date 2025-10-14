@@ -34,6 +34,7 @@
     "@mask/prettier-config": "workspace:*",
     "@mask/turbo-run": "workspace:*",
     "@mask/typescript-config": "workspace:*",
+    "@mask/vite-config": "workspace:*",
     "@mask/vsh": "workspace:*",
     "@playwright/test": "catalog:",
     "@types/node": "catalog:",

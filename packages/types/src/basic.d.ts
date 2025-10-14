@@ -5,11 +5,8 @@ interface BasicOption {
   value: string;
 }
 
-type SelectOption = BasicOption;
-
-type TabOption = BasicOption;
-
-interface BasicUserInfo {
+/** 用户信息 */
+interface UserInfo {
   /**
    * 头像
    */
@@ -30,10 +27,6 @@ interface BasicUserInfo {
    * 用户名
    */
   username: string;
-}
-
-/** 用户信息 */
-interface UserInfo extends BasicUserInfo {
   /**
    * 用户描述
    */
@@ -42,7 +35,6 @@ interface UserInfo extends BasicUserInfo {
    * 首页地址
    */
   homePath: string;
-
   /**
    * accessToken
    */
@@ -58,12 +50,4 @@ interface TabDefinition extends RouteLocationNormalized {
 
 type ClassType = Array<object | string> | object | string;
 
-export type {
-  BasicOption,
-  BasicUserInfo,
-  ClassType,
-  UserInfo,
-  TabDefinition,
-  SelectOption,
-  TabOption,
-};
+export type { BasicOption, ClassType, TabDefinition, UserInfo };

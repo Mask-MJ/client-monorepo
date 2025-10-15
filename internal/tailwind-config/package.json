@@ -5,7 +5,9 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "stub": "pnpm unbuild --stub"
+    "stub": "pnpm unbuild --stub",
+    "build": "pnpm vite build",
+    "prepublishOnly": "npm run build"
   },
   "files": [
     "dist"
@@ -26,14 +28,7 @@
       "types": "./src/index.ts",
       "import": "./dist/index.mjs",
       "require": "./dist/index.cjs"
-    },
-    "./postcss": {
-      "types": "./src/postcss.config.ts",
-      "import": "./dist/postcss.config.mjs",
-      "require": "./dist/postcss.config.cjs",
-      "default": "./dist/postcss.config.mjs"
-    },
-    "./*": "./*"
+    }
   },
   "peerDependencies": {
     "tailwindcss": "^4.1.14"
@@ -41,15 +36,11 @@
   "dependencies": {
     "@manypkg/get-packages": "catalog:",
     "@tailwindcss/typography": "catalog:",
+    "@tailwindcss/vite": "catalog:",
     "autoprefixer": "catalog:",
     "cssnano": "catalog:",
-    "postcss": "catalog:",
-    "postcss-antd-fixes": "catalog:",
-    "postcss-import": "catalog:",
-    "postcss-preset-env": "catalog:",
-    "tailwindcss": "catalog:"
+    "tailwindcss": "catalog:",
+    "tw-animate-css": "catalog:"
   },
-  "devDependencies": {
-    "@types/postcss-import": "catalog:"
-  }
+  "devDependencies": {}
 }

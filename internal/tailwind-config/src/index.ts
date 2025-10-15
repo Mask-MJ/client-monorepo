@@ -1,8 +1,7 @@
 import type { Config } from 'tailwindcss';
 
-import path from 'node:path';
-
 import { getPackagesSync } from '@manypkg/get-packages';
+import path from 'node:path';
 
 import { enterAnimationPlugin } from './plugins/entry';
 

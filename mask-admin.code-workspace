@@ -61,6 +61,10 @@
       "path": "packages/types",
     },
     {
+      "name": "@mask/shadcn-ui",
+      "path": "packages/ui/shadcn-ui",
+    },
+    {
       "name": "@mask/utils",
       "path": "packages/utils",
     },

@@ -21,6 +21,10 @@
       "path": "internal/stylelint-config",
     },
     {
+      "name": "@mask/tailwind-config",
+      "path": "internal/tailwind-config",
+    },
+    {
       "name": "@mask/typescript-config",
       "path": "internal/typescript-config",
     },
@@ -31,6 +35,10 @@
     {
       "name": "@mask/composables",
       "path": "packages/composables",
+    },
+    {
+      "name": "@mask/icons",
+      "path": "packages/icons",
     },
     {
       "name": "@mask/locales",

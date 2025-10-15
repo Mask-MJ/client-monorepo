@@ -1,6 +1,7 @@
 packages:
   - internal/*
   - packages/*
+  - packages/ui-kit/*
   - apps/*
   - scripts/*
   - docs

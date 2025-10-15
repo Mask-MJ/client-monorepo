@@ -106,19 +106,16 @@ async function loadApplicationPlugins(
   } = options;
 
   const commonPlugins = await loadCommonPlugins(commonOptions);
-
   return await loadConditionPlugins([
     ...commonPlugins,
     {
       condition: i18n,
       plugins: async () => {
-        return [
-          viteVueI18nPlugin({
+        return [<PluginOption>viteVueI18nPlugin({
             compositionOnly: true,
             fullInstall: true,
             runtimeOnly: true,
-          }),
-        ];
+          })];
       },
     },
     {
@@ -199,10 +196,11 @@ async function loadLibraryPlugins(
 export {
   loadApplicationPlugins,
   loadLibraryPlugins,
-  viteArchiverPlugin,
-  viteCompressPlugin,
   viteDtsPlugin,
-  viteHtmlPlugin,
   viteVisualizerPlugin,
-  viteVxeTableImportsPlugin,
 };
+
+export { viteArchiverPlugin } from './archiver';
+export { viteVxeTableImportsPlugin } from './vxe-table';
+export { default as viteCompressPlugin } from 'vite-plugin-compression';
+export { createHtmlPlugin as viteHtmlPlugin } from 'vite-plugin-html';

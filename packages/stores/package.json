@@ -1,6 +1,6 @@
 {
   "name": "@mask/stores",
-  "version": "5.5.9",
+  "version": "1.0.0",
   "license": "MIT",
   "type": "module",
   "sideEffects": [

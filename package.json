@@ -33,6 +33,7 @@
     "@mask/eslint-config": "workspace:*",
     "@mask/prettier-config": "workspace:*",
     "@mask/stylelint-config": "workspace:*",
+    "@mask/tailwind-config": "workspace:*",
     "@mask/turbo-run": "workspace:*",
     "@mask/typescript-config": "workspace:*",
     "@mask/vite-config": "workspace:*",

@@ -39,12 +39,14 @@
     "@mask/types": "workspace:*",
     "@mask/utils": "workspace:*",
     "@tailwindcss/vite": "catalog:",
+    "@vee-validate/zod": "catalog:",
     "@vueuse/core": "catalog:",
     "class-variance-authority": "catalog:",
     "lucide-vue-next": "catalog:",
     "radix-vue": "catalog:",
     "reka-ui": "catalog:",
     "vee-validate": "catalog:",
-    "vue": "catalog:"
+    "vue": "catalog:",
+    "zod": "catalog:"
   }
 }

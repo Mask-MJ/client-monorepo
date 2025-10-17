@@ -11,6 +11,12 @@ const customConfig: Linter.Config[] = [
     files: ['packages/ui/shadcn-ui/**/**'],
     rules: {
       'vue/require-default-prop': 'off',
+      'perfectionist/sort-imports': 'off',
+      'perfectionist/sort-interfaces': 'off',
+      'perfectionist/sort-objects': 'off',
+      'vue/html-self-closing': 'off',
+      'prettier/prettier': 'off',
+      'symbol-description': 'off',
     },
   },
   {

@@ -30,7 +30,7 @@
   "dependencies": {
     "@mask/utils": "workspace:*",
     "@vueuse/core": "catalog:",
-    "radix-vue": "catalog:",
+    "reka-ui": "catalog:",
     "vue": "catalog:"
   },
   "devDependencies": {}

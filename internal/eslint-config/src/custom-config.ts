@@ -17,6 +17,9 @@ const customConfig: Linter.Config[] = [
       'vue/html-self-closing': 'off',
       'prettier/prettier': 'off',
       'symbol-description': 'off',
+      'perfectionist/sort-named-exports': 'off',
+      'perfectionist/sort-union-types': 'off',
+      'perfectionist/sort-object-types': 'off',
     },
   },
   {

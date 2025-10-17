@@ -5,12 +5,12 @@ import { cn } from '@mask/utils';
 
 const props = defineProps<{
   class?: HTMLAttributes['class'];
-  defaultValue?: number | string;
-  modelValue?: number | string;
+  defaultValue?: string | number;
+  modelValue?: string | number;
 }>();
 
 const emits = defineEmits<{
-  (e: 'update:modelValue', payload: number | string): void;
+  (e: 'update:modelValue', payload: string | number): void;
 }>();
 
 const modelValue = useVModel(props, 'modelValue', emits, {
